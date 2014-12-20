@@ -10,6 +10,47 @@ To discuss whether this optimistic project can be a reality, open an [Issue](/is
 Let developers work together towards an usable torrent library for Go language community.  
 It's reasonable to realize an efficient pure Go implementation, comparable in speed, but easier to read than lower level libraries.
 
+Feature list
+--------
+- [x] [BEP 3: The BitTorrent Protocol Specification](http://bittorrent.org/beps/bep_0003.html)
+- [x] [BEP 5: DHT Protocol](http://bittorrent.org/beps/bep_0005.html), from [nictuku/dht](https://github.com/nictuku/dht)
+- [ ] [BEP 6: Fast Extension](http://bittorrent.org/beps/bep_0006.html)
+- [x] [BEP 7: IPv6 Tracker Extension](http://bittorrent.org/beps/bep_0007.html)
+- [x] [BEP 9: Extension for Peers to Send Metadata Files](http://bittorrent.org/beps/bep_0009.html)
+- [x] [BEP 10: Extension Protocol](http://bittorrent.org/beps/bep_0010.html)
+- [x] [BEP 12: Multitracker Metadata Extension](http://bittorrent.org/beps/bep_0012.html)
+- [ ] [BEP 15: UDP Tracker Protocol](http://bittorrent.org/beps/bep_0015.html)
+- [x] [BEP 16: Superseeding](http://bittorrent.org/beps/bep_0016.html)
+- [x] [BEP 17: HTTP Seeding (Hoffman-style)](http://bittorrent.org/beps/bep_0017.html)
+- [ ] [BEP 18: Search Engine Specification](http://bittorrent.org/beps/bep_0018.html)
+- [x] [BEP 19: HTTP/FTP Seeding (GetRight-style)](http://bittorrent.org/beps/bep_0019.html)
+- [x] [BEP 21: Extension for Partial Seeds](http://bittorrent.org/beps/bep_0021.html)
+- [ ] [BEP 22: BitTorrent Local Tracker Discovery Protocol](http://bittorrent.org/beps/bep_0022.html)
+- [x] [BEP 24: Tracker Returns External IP](http://bittorrent.org/beps/bep_0024.html)
+- [ ] [BEP 26: Zeroconf Peer Advertising and Discovery](http://bittorrent.org/beps/bep_0026.html)
+- [x] [BEP 27: Private Torrents](http://bittorrent.org/beps/bep_0027.html)
+- [ ] [BEP 28: Tracker exchange](http://bittorrent.org/beps/bep_0028.html)
+- [x] [BEP 29: uTorrent transport protocol](http://bittorrent.org/beps/bep_0029.html), also more detailed on [libtorrent docs](http://www.libtorrent.org/utp.html)
+- [ ] [BEP 30: Merkle tree torrent extension](http://bittorrent.org/beps/bep_0030.html)
+- [ ] [BEP 31: Tracker Failure Retry Extension](http://bittorrent.org/beps/bep_0031.html)
+- [ ] [BEP 32: IPv6 extension for DHT](http://bittorrent.org/beps/bep_0032.html)
+- [ ] [BEP 33: DHT scrape](http://bittorrent.org/beps/bep_0033.html)
+- [ ] [BEP 34: DNS Tracker Preferences](http://bittorrent.org/beps/bep_0034.html)
+- [ ] [BEP 35: Torrent Signing](http://bittorrent.org/beps/bep_0035.html)
+- [ ] [BEP 36: Torrent RSS feeds](http://bittorrent.org/beps/bep_0036.html)
+- [ ] [BEP 38: Finding Local Data Via Torrent File Hints](http://bittorrent.org/beps/bep_0038.html)
+- [ ] [BEP 39: Updating Torrents Via Feed URL](http://bittorrent.org/beps/bep_0039.html)
+- [ ] [BEP 40: Canonical Peer Priority](http://bittorrent.org/beps/bep_0040.html)
+- [ ] [BEP 41: UDP Tracker Protocol Extensions](http://bittorrent.org/beps/bep_0041.html)
+- [ ] [BEP 42: DHT Security Extension](http://bittorrent.org/beps/bep_0042.html)
+- [ ] [BEP 43: Read-only DHT Nodes](http://bittorrent.org/beps/bep_0043.html)
+
+- [x] [uTorrent Peer Exchange Protocol](http://en.wikipedia.org/wiki/Peer_exchange)
+- [x] [Local Peer Discovery](http://en.wikipedia.org/wiki/Local_Peer_Discovery)
+- [ ] NAT-PMP support, from [TaiPei-Torrent](https://github.com/jackpal/Taipei-Torrent)
+- [ ] UPNP support, from [TaiPei-Torrent](https://github.com/jackpal/Taipei-Torrent)
+
+
 ## Existing projects recap:
 
 Torrent libraries written in Golang (or attempts to!), let's recap them:
