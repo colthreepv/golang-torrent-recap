@@ -4,7 +4,7 @@ Given the number of singular implementations I begin to wonder it's not going to
 
 A recap of projects found on the web is [below](#existing-projects-recap), the pro/cons list is totally ongoing work, I tried a raw estimation of a project's value, so is mostly rubbish, but it should be used to understand what to recycle and when.
 
-To discuss whether this optimistic project can be a reality, open an [Issue](/issues), or propose edits as [Pull Request](/pulls)
+To discuss whether this optimistic project can be a reality, open an [Issue](https://github.com/mrgamer/golang-torrent-recap/issues), or propose edits as [Pull Request](https://github.com/mrgamer/golang-torrent-recap/pulls)
 
 ## Aim of the project
 Let developers work together towards an usable torrent library for Go language community.  
