@@ -2,9 +2,13 @@
 Is that even possible to put together a native Golang torrent library covering most use cases?  
 Given the number of singular implementations I begin to wonder it's not going to be easy.
 
-A recap of projects found on the web is below, the pro/cons list is totally ongoing work, I tried a raw estimation of a project's value, so is mostly rubbish, but it should be used to understand what to recycle and when.
+A recap of projects found on the web is [below](#existing-projects-recap), the pro/cons list is totally ongoing work, I tried a raw estimation of a project's value, so is mostly rubbish, but it should be used to understand what to recycle and when.
 
 To discuss whether this optimistic project can be a reality, open an [Issue](/issues), or propose edits as [Pull Request](/pulls)
+
+## Aim of the project
+Let developers work together towards an usable torrent library for Go language community.  
+It's reasonable to realize an efficient pure Go implementation, comparable in speed, but easier to read than lower level libraries.
 
 ## Existing projects recap:
 
