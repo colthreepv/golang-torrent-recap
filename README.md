@@ -10,7 +10,7 @@ To discuss whether this optimistic project can be a reality, open an [Issue](htt
 Let developers work together towards an usable torrent library for Go language community.  
 It's reasonable to realize an efficient pure Go implementation, comparable in speed, but easier to read than lower level libraries.
 
-Feature list
+Feature list (STILL ONGOING WORK)
 --------
 - [x] [BEP 3: The BitTorrent Protocol Specification](http://bittorrent.org/beps/bep_0003.html)
 - [x] [BEP 5: DHT Protocol](http://bittorrent.org/beps/bep_0005.html), from [nictuku/dht](https://github.com/nictuku/dht)
